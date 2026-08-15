@@ -25,7 +25,9 @@ is finished does not.
 
 [Write your response here]
 
----
+---When building data structure I will start by layer 1 where I can see the traffic coming in
+-- On the first layer should have a pipeline that arrange data for people with multiple entries so that they data can be stored randomly 
+-- Each entry should generated its unique code and the code should not repeat itself once generated  
 
 ### 2. Security Measures
 
