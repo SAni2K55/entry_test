@@ -20,12 +20,18 @@ npx hardhat test
 ## Test Scenario 1: FreelanceBountyBoard
 **Target:** `contracts/FreelanceBountyBoard.sol`
 
+let winners = 0;
+    for (let i = 0; i < players.length; i++) {
+      const gained = (await ethers.provider.getBalance(players[i].address)) - before[i];
+      if (gained === expectedPrize) winners++;
+      else expect(gained).to.equal(0n);
+
 ### 1.1 The test I wrote
 
-- **Test file and name:**
-- **What it checks:**
+- **Test file and name:**Game 
+- **What it checks:** Winner
 - **Steps:**
-- **Expected result:**
+- **Expected result:** winner selected
 - **Does it pass?** no
 
 ### 1.2 A scenario I did NOT have time to test
