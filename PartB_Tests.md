@@ -16,13 +16,6 @@ Run them with:
 ```bash
 npx hardhat test
 ```
-const bounty = await board.getBounty(1);
-    expect(bounty[0]).to.equal(employer.address); 
-    expect(bounty[1]).to.equal("Build a website");
-    expect(bounty[2]).to.equal("solidity");
-    expect(bounty[3]).to.equal(REWARD); 
-    expect(Number(bounty[4])).to.equal(0)
----
 
 ## Test Scenario 1: FreelanceBountyBoard
 **Target:** `contracts/FreelanceBountyBoard.sol`
@@ -48,13 +41,19 @@ see the gap.
 ## Test Scenario 2: DecentralisedRaffle
 **Target:** `contracts/DecentralisedRaffle.sol`
 
+
+ it("[3] payment while proccessing, and pending while await", async approve () {
+    approve expect(approve.connect(owner).pending()).to.emit(pending, "paymentPaused");
+    expect(await Payment.isPaused()).to.equal(true);
+
+
 ### 2.1 The test I wrote
 
-- **Test file and name:**
-- **What it checks:**
+- **Test file and name:** Payment
+- **What it checks:** approve the payment
 - **Steps:**
-- **Expected result:**
-- **Does it pass?** [yes / no / partly]
+- **Expected result:** approave
+- **Does it pass?** no
 
 ### 2.2 The hard one
 
@@ -75,10 +74,10 @@ to read it.)
 Pick **one** of your two contracts. If you wanted to steal from it or break it,
 what would you try first?
 
-- **Contract:**
-- **My attack:**
-- **Does it work against my implementation?** [yes / no / not sure]
-- **If it works, what would fix it?**
+- **Contract:** Payment
+- **My attack:** Decline and redirect payments
+- **Does it work against my implementation?** yes 
+- **If it works, what would fix it?** Private transaction and only show when the payment is done
 
 An honest "yes, this attack works against my code, and here is the fix" scores
 full marks here. Claiming your contract is perfect scores nothing.
