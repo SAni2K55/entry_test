@@ -39,7 +39,8 @@ is finished does not.
 
 [Write your response here]
 
----
+--- layer 3 perform such activities 
+-- Layer 1 are owners only and layer 2 are employs -only
 
 ### 3. Randomness - Be Honest Here (4 marks)
 
@@ -52,7 +53,9 @@ you show you understand what that costs.
 
 [Write your response here]
 
----
+---create a unique code and the profile not accept any input from the owner when the game is playing the only time the owner does is when loading or accepting participants
+---The owner can change the code base to increase the odds on his side
+---one random player should given private key or password to just to play on that specific moment 
 
 ### 4. Trade-offs & Future Improvements
 
@@ -62,7 +65,8 @@ you show you understand what that costs.
 
 [Write your response here]
 
----
+--- Having target of people 
+---refunds where few people didnt win but come in second and third place gets refunded  
 
 ## REAL-WORLD DEPLOYMENT CONCERNS
 
