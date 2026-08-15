@@ -16,7 +16,12 @@ Run them with:
 ```bash
 npx hardhat test
 ```
-
+const bounty = await board.getBounty(1);
+    expect(bounty[0]).to.equal(employer.address); 
+    expect(bounty[1]).to.equal("Build a website");
+    expect(bounty[2]).to.equal("solidity");
+    expect(bounty[3]).to.equal(REWARD); 
+    expect(Number(bounty[4])).to.equal(0)
 ---
 
 ## Test Scenario 1: FreelanceBountyBoard
@@ -28,7 +33,7 @@ npx hardhat test
 - **What it checks:**
 - **Steps:**
 - **Expected result:**
-- **Does it pass?** [yes / no / partly]
+- **Does it pass?** no
 
 ### 1.2 A scenario I did NOT have time to test
 
@@ -38,7 +43,7 @@ see the gap.
 
 [Write your response here]
 
----
+--- Totally lost of what I was doing I need more guidance 
 
 ## Test Scenario 2: DecentralisedRaffle
 **Target:** `contracts/DecentralisedRaffle.sol`
@@ -63,7 +68,7 @@ to read it.)
 
 [Write your response here]
 
----
+---The owner have no impact on results
 
 ## Thinking Like An Attacker (3 marks)
 
