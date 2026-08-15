@@ -82,7 +82,7 @@ You send a simple ETH transfer on Ethereum.
 
 Dont know the calculation but blockchain transaction are cheaper compared to those of the banks where the amount of transaction fee is charged according to amount you transfer  
 
-- Total gas cost in gwei = [show your working]
+- Total gas cost in gwei = 
 - Converted to ETH (remember: 1 ETH = 1,000,000,000 gwei) = [show your working]
 - Converted to USD = [show your working]
 
@@ -108,12 +108,10 @@ Your smart contract needs to know the current ETH/USD price.
   in a future upgrade.
 - **D)** Because API providers block blockchain nodes for security reasons.
 
-**Your Answer:** [A/B/C/D]
+**Your Answer:** [B]
 
 **Your Reasoning:**
-[2-3 sentences. Why would a single company running the only oracle undermine the
-point of building on a blockchain? What does a decentralised oracle network do
-about that?]
+ The oracle functions as the base of the database and links to the blockchain, prevent any unwanted transaction 
 
 ---
 
@@ -132,12 +130,12 @@ about that?]
   attacker their own stake. The cost of that stake is also what makes Sybil
   attacks - one actor spinning up thousands of fake nodes - uneconomic.
 
-**Your Answer:** [A/B/C/D]
+**Your Answer:** [A]
 
 **Your Reasoning:**
 [2-3 sentences. What does an attacker actually need to acquire to threaten a PoS
 chain, and what do they stand to lose? Name one difference from Proof of Work.]
-
+The attacker needs to have a private keys, and their identity can be seen as have unique IDs
 ---
 
 ### Question 5: Layer 2s and Rollups (3 marks + 2 for reasoning)
@@ -156,11 +154,13 @@ chain, and what do they stand to lose? Name one difference from Proof of Work.]
 - **D)** It reduces gas costs by lowering the base fee on Ethereum itself
   whenever the rollup is active.
 
-**Your Answer:** [A/B/C/D]
+**Your Answer:** [D]
 
 **Your Reasoning:**
 [2-3 sentences. Most rollups today run a single centralised sequencer. What can
-that sequencer do to you, and what can it *not* do?]
+that sequencer do to you, and what can it *not* do?
+
+Publicly shows all the transaction and also protect me from fraud 
 
 ---
 
