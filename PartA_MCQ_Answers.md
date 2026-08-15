@@ -56,11 +56,10 @@ database?"*
 - **D)** "Because a database can only handle a few thousand users, and
   blockchains scale infinitely."
 
-**Your Answer:** [A/B/C/D]
+**Your Answer:** [D]
 
 **Your Reasoning:**
-[2-3 sentences. What is the actual property a blockchain provides here? Name one
-honest cost of choosing it.]
+Block chain is decentralised and provide transparence between the users eg banks have hidden fees for every transaction
 
 ---
 
@@ -79,9 +78,9 @@ You send a simple ETH transfer on Ethereum.
 - **C)** 0.00042 ETH (about $1.26)
 - **D)** 0.0042 ETH (about $12.60)
 
-**Your Answer:** [A/B/C/D]
+**Your Answer:** [B]
 
-**Your Calculation:**
+Dont know the calculation but blockchain transaction are cheaper compared to those of the banks where the amount of transaction fee is charged according to amount you transfer  
 
 - Total gas cost in gwei = [show your working]
 - Converted to ETH (remember: 1 ETH = 1,000,000,000 gwei) = [show your working]
@@ -95,7 +94,7 @@ to storage cost far more than this simple transfer?]
 ### Question 3: The Oracle Problem (3 marks + 2 for reasoning)
 
 Your smart contract needs to know the current ETH/USD price.
-
+**Your Answer:** [A/B/C/D]
 **Why can't the contract simply call a price API itself?**
 
 - **A)** Because API calls are too expensive in gas, though they are technically
