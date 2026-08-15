@@ -56,8 +56,7 @@ database?"*
 - **D)** "Because a database can only handle a few thousand users, and
   blockchains scale infinitely."
 
-**Your Answer:** [D]
-
+**Your Answer:** D
 **Your Reasoning:**
 Block chain is decentralised and provide transparence between the users eg banks have hidden fees for every transaction
 
@@ -78,7 +77,7 @@ You send a simple ETH transfer on Ethereum.
 - **C)** 0.00042 ETH (about $1.26)
 - **D)** 0.0042 ETH (about $12.60)
 
-**Your Answer:** [B]
+**Your Answer:** B
 
 Dont know the calculation but blockchain transaction are cheaper compared to those of the banks where the amount of transaction fee is charged according to amount you transfer  
 
@@ -108,7 +107,7 @@ Your smart contract needs to know the current ETH/USD price.
   in a future upgrade.
 - **D)** Because API providers block blockchain nodes for security reasons.
 
-**Your Answer:** [B]
+**Your Answer:** B
 
 **Your Reasoning:**
  The oracle functions as the base of the database and links to the blockchain, prevent any unwanted transaction 
@@ -130,7 +129,7 @@ Your smart contract needs to know the current ETH/USD price.
   attacker their own stake. The cost of that stake is also what makes Sybil
   attacks - one actor spinning up thousands of fake nodes - uneconomic.
 
-**Your Answer:** [A]
+**Your Answer:** A
 
 **Your Reasoning:**
 [2-3 sentences. What does an attacker actually need to acquire to threaten a PoS
@@ -154,7 +153,7 @@ The attacker needs to have a private keys, and their identity can be seen as hav
 - **D)** It reduces gas costs by lowering the base fee on Ethereum itself
   whenever the rollup is active.
 
-**Your Answer:** [D]
+**Your Answer:** D
 
 **Your Reasoning:**
 [2-3 sentences. Most rollups today run a single centralised sequencer. What can
@@ -183,7 +182,7 @@ them.
 - **D)** The seed phrase is just a backup of your public address, which is why it
   is safe to share with support staff if you get stuck.
 
-**Your Answer:** [B]
+**Your Answer:** B
 
 **Your Reasoning:**
 [2-3 sentences. What does a signature prove? What is the trade-off a user accepts
@@ -222,7 +221,7 @@ uint256 index = uint256(
 - **D)** It is insecure on Ethereum but safe on a Layer 2, because the sequencer
   orders transactions privately.
 
-**Your Answer:** [D]
+**Your Answer:** D
 
 **Your Reasoning:**
 [2-3 sentences. Who specifically can manipulate this draw, and what would they
@@ -261,7 +260,7 @@ function approveAndPay(uint256 bountyId, address freelancer) external {
 - **D)** The `require` on `msg.sender` should use `tx.origin` instead, so that
   contracts cannot call the function at all.
 
-**Your Answer:** [B]
+**Your Answer:** B
 
 **Your Reasoning:**
 [2-3 sentences. Walk through the exact sequence an attacking contract would use.
