@@ -222,14 +222,14 @@ uint256 index = uint256(
 - **D)** It is insecure on Ethereum but safe on a Layer 2, because the sequencer
   orders transactions privately.
 
-**Your Answer:** [A/B/C/D]
+**Your Answer:** [D]
 
 **Your Reasoning:**
 [2-3 sentences. Who specifically can manipulate this draw, and what would they
 have to do? You will implement this shortcut in Part B anyway - so be clear
 about what you are shipping.]
 
----
+--- Layer 1 can manipulate  the data and while on layer 2 is shown on public as is fair the layer 1 functioning as base should show randomly
 
 ### Question 8: Paying Out Safely (3 marks + 2 for reasoning)
 
