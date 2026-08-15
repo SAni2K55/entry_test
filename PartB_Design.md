@@ -123,7 +123,7 @@ Oracle Problem" is. List 3-5.
 
 [List your resources]
 
---- I used Youtube 
+--- I used Youtube - blockchain for beginners
 
 ### Challenges Faced
 
@@ -133,10 +133,10 @@ Oracle Problem" is. List 3-5.
 
 [Write down your challenges]
 
----
+--- At first I did have an idea on what IM suppose to build but then I thought of a game or competition 
 
 ### What I'd Learn Next
 
 [Write your future learning goals]
 
----
+---  Learning how to deploy and see how my codes works when someone is using them 
