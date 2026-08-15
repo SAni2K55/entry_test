@@ -85,7 +85,8 @@ you show you understand what that costs.
 
 [Write your response here]
 
----
+--- Layer 1
+---0.00021Eth
 
 ### 2. Scalability
 
@@ -96,7 +97,8 @@ you show you understand what that costs.
 
 [Write your response here]
 
----
+--- The part of the owner should be more expensive 
+--- Players side should break first
 
 ### 3. User Experience
 
@@ -109,7 +111,8 @@ you show you understand what that costs.
 
 [Write your response here]
 
----
+--- Knowing how to covert the Etherium to Eth 
+---MetaMask
 
 ## MY LEARNING APPROACH
 
@@ -120,7 +123,7 @@ Oracle Problem" is. List 3-5.
 
 [List your resources]
 
----
+--- I used Youtube 
 
 ### Challenges Faced
 
