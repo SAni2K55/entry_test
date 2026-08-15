@@ -183,13 +183,13 @@ them.
 - **D)** The seed phrase is just a backup of your public address, which is why it
   is safe to share with support staff if you get stuck.
 
-**Your Answer:** [A/B/C/D]
+**Your Answer:** [B]
 
 **Your Reasoning:**
 [2-3 sentences. What does a signature prove? What is the trade-off a user accepts
 by holding their own keys, and what does account abstraction do to soften it?]
 
----
+---The signature allows the owner to only access their blockchain through private keys and protect them from hackers even though the is 51% on blockchain attacks 
 
 ## PART 2: Applying It To Your Contracts
 
